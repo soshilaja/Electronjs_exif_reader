@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Electron App</title>
+</head>
+<body>
+    <h1>This an Exif Photo Reader App</h1>
+    <form>
+        <label>Select a photo:</label>
+        <input type='file' id='photo' name='photo' accept='image/jpg, image/jpeg, image/tif, image/tiff' />
+        <button id="submitButton" type='button'>Submit photo</button>
+    </form>
+    <div>
+        <div id="fileInfo">
+            
+        </div>
+    </div>
+    <!--renderer.js is our client-side javascript file-->
+    <script src="renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+//this array contains the names of the desired bits of information
+//that may or may not be present in the EXIF data when it is extracted
+//from the image file
+
+const requestedTags = [
+    'Bits Per Sample',
+    'Image Height',
+    'Image Width',
+    'Artist',
+    'ExifVersion',
+    'DateTimeOriginal',
+    'DateTimeDigitized',
+    'Make',
+    'Model',
+    'HostComputer',
+    'ExposureTime',
+    'FNumber',
+    'ExposureProgram',
+    'ISOSpeedRatings',
+    'ShutterSpeedValue',
+    'ApertureValue',
+    'BrightnessValue',
+    'ExposureBiasValue',
+    'MeteringValue',
+    'Flash',
+    'FocalLength',
+    'SceneType',
+    'ExposureMode',
+    'WhiteBalance',
+    'DigitalZoomRatio',
+    'LensSpecification',
+    'LensMake',
+    'LensModel',
+    'GPSLatitudeRef',
+    'GPSLatitude',
+    'GPSLongitudeRef',
+    'GPSLongitude',
+    'GPSAltitudeRef',
+    'GPSAltitude',
+    'GPSSpeedRef',
+    'GPSSpeed',
+    'GPSImgDirectionRef',
+    'GPSImgDirection',
+    'GPSDestBearingRef',
+    'GPSDestBearing',
+    'GPSDateStamp',
+    'GPSPositioningError'
+]
+
+module.exports = requestedTags
